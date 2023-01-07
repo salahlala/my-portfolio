@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="css/bootstrap.min.css"
+    />
+    <link
+      href="css/style.css"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="icon" href="images/color-main.webp" />
+    <title>Salah Lala</title>
+  </head>
+  <body>
+    <div class="main-background">
+      <div class="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow-animate"></div>
+        <div class="shadow-animate"></div>
+        <div class="shadow-animate"></div>
+        <span>Loading</span>
+      </div>
+    </div>
+    <div
+      class="background-effect position-fixed start-0 w-100 h-100 top-0"
+    ></div>
+    <div class="header shadow">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo text-primary">
+          <img src="images/dark-main.webp" alt="logo" class="dark-logo-head" />
+          <img
+            src="images/color-main.webp"
+            alt="logo"
+            class="color-logo-head"
+          />
+        </div>
+        <ul class="links d-flex align-items-center gap-4 m-0">
+          <li>
+            <span class="active home">Home</span>
+          </li>
+          <li>
+            <span class="text-light about-nav">About</span>
+          </li>
+          <li>
+            <span class="text-light services-nav">Services</span>
+          </li>
+          <li>
+            <span class="text-light portfolio-nav">Portfolio</span>
+          </li>
+          <li>
+            <span class="text-light contact-nav">Contact</span>
+          </li>
+
+          <div
+            class="social-icons border-start ms-2 d-flex gap-4 align-items-center"
+          >
+            <a href="https://github.com/salahlala" class="ms-3" target="_blank">
+              <!-- <i class="fa-brands fa-facebook-f text-light facebook"></i> -->
+              <i class="fa-brands fa-github text-light github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/salah-eldien-ahmed-389471221/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin-in text-light linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/salah.lala.42/" target="_blank">
+              <i class="fa-brands fa-instagram text-light instagram"></i>
+            </a>
+          </div>
+        </ul>
+        <div class="open-nav">
+          <span class="first-btn"></span>
+          <span class="second-btn"></span>
+          <span class="third-btn"></span>
+        </div>
+        <div class="switch-btn rounded-3 p-2 pb-1 pt-1 position-absolute">
+          <i class="fa-solid fa-moon text-light"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-nav">
+      <ul class="links d-flex align-items-center gap-4 m-0">
+        <li class="">
+          <span class="active home">Home</span>
+        </li>
+        <li class="">
+          <span class="text-light about-nav">About</span>
+        </li>
+        <li class="">
+          <span class="text-light services-nav">Services</span>
+        </li>
+        <li class="">
+          <span class="text-light portfolio-nav">Portfolio</span>
+        </li>
+        <li class="">
+          <span class="text-light contact-nav">Contact</span>
+        </li>
+
+        <div
+          class="social-icons border-start ms-2 d-flex gap-4 align-items-center"
+        >
+          <a href="https://github.com/salahlala" class="ms-3" target="_blank">
+            <!-- <i class="fa-brands fa-facebook-f text-light facebook"></i> -->
+            <i class="fa-brands fa-github text-light github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/salah-eldien-ahmed-389471221/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in text-light linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/salah.lala.42/" target="_blank">
+            <i class="fa-brands fa-instagram text-light instagram"></i>
+          </a>
+        </div>
+      </ul>
+    </div>
+
+    <!-- start landing page -->
+    <div class="landing">
+      <canvas> </canvas>
+      <div class="container">
+        <div class="row">
+          <div
+            class="details position-relative mt-5 col-12 col-lg-7 text-lg-start text-center col-md-12"
+          >
+            <p
+              class="fw-bold fs-4 tit"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
+              Hello
+            </p>
+            <h1 class="text-light" data-aos="fade-right" data-aos-delay="650">
+              I'm Salah <span>Lala</span>
+            </h1>
+            <p
+              class="description text-light position-relative pt-2 pb-2"
+              data-aos="fade-right"
+              data-aos-delay="1250"
+            >
+              I'm a <span class="text-animation fw-bold"></span>
+            </p>
+            <p
+              data-aos="fade-right"
+              data-aos-delay="2000"
+              class="cv-btn position-absolute"
+            >
+              <a
+                href="salah_resume.pdf"
+                download="SalahLala_resume.pdf"
+                class="d-block rounded-2 text-light pt-2 pb-2 p-4"
+                >Download CV</a
+              >
+            </p>
+          </div>
+          <div
+            class="img-card card-effect text-center text-lg-start col-12 col-lg-5 col-md-12"
+          >
+            <img
+              src="images/logo-color.webp"
+              class="rounded-circle my-logo color-logo"
+              alt="photo"
+              data-aos="zoom-in"
+            />
+            <img
+              src="images/dark-logo.webp"
+              class="rounded-circle my-logo dark-logo"
+              alt="photo"
+              data-aos="zoom-in"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="back1"></div>
+      <div class="back2"></div>
+      <div class="back3"></div>
+    </div>
+    <!-- end landing page -->
+
+    <!-- start About-work section -->
+    <div class="about-work pt-4 pb-4">
+      <div class="container">
+        <div class="row p-4">
+          <div
+            class="col-lg-4 effect-style col-md-6 mb-4"
+            data-aos="fade-right"
+          >
+            <div class="box card-effect p-3 ps-5 pe-5 rounded-3 mb-4 h-100">
+              <i class="fa-solid fa-file-code mb-3"></i>
+              <h3 class="text-light">Deeper Skillset</h3>
+              <p class="text-white-50 lh-base">
+                Kobita tumi sopno charini hodsye ersest labo met, consectetur
+                addsipi ctetur adipisicing eod tempor
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 effect-style col-md-6 mb-4"
+            data-aos="zoom-in-up"
+            data-aos-delay="50"
+          >
+            <div class="box card-effect p-3 ps-5 pe-5 rounded-3 mb-4 h-100">
+              <i class="fa-solid fa-diagram-project mb-3"></i>
+              <h3 class="text-light">Creative Work</h3>
+              <p class="text-white-50 lh-base">
+                Kobita tumi sopno charini hodsye ersest labo met, consectetur
+                addsipi ctetur adipisicing eod tempor
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 effect-style col-md-6 mb-4"
+            data-aos-delay="80"
+            data-aos="fade-left"
+          >
+            <div class="box card-effect p-3 ps-5 pe-5 rounded-3 mb-4 h-100">
+              <i class="fa-solid fa-laptop-code mb-3"></i>
+              <h3 class="text-light">Strong Dedication</h3>
+              <p class="text-white-50 lh-base">
+                Kobita tumi sopno charini hodsye ersest labo met, consectetur
+                addsipi ctetur adipisicing eod tempor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end About-work section -->
+    <!-- start About-me section -->
+    <div class="about-me pt-5 pb-5" id="about">
+      <div class="container">
+        <div class="row p-4 align-items-center">
+          <div class="col-md-7 mb-4">
+            <div class="box">
+              <h2
+                class="text-light mb-5 mt-5 pb-3 border-gradient d-inline-block"
+                data-aos="fade-down"
+              >
+                About Me
+              </h2>
+              <h1
+                class="desc text-uppercase text-light pb-5 pt-5 lh-base"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                My Mission Is <br />
+                <span>Design & Develop</span> The Best Websites Around
+              </h1>
+              <p
+                class="text-white-50 lh-lg fw-semibold fs-6 ab-text"
+                data-aos="fade-up"
+                data-aos-delay="250"
+              >
+                I'm a Front-end Developer, I'm from Egypt. I code and create web
+                elements for amazing people around the world. I like work with
+                new people. New people are new experiences.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-4">
+            <div class="box">
+              <div class="skill-box mb-5" data-aos="fade-up" data-aos-delay="">
+                <div
+                  class="skill-title mb-2 d-flex justify-content-between align-items-center"
+                >
+                  <span class="text-light">HTML</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar position-relative"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style="width: 90%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    data-val="90%"
+                  ></div>
+                </div>
+              </div>
+              <div
+                class="skill-box mb-5"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div
+                  class="skill-title mb-2 d-flex justify-content-between align-items-center"
+                >
+                  <span class="text-light">CSS</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar position-relative"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style="width: 90%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    data-val="90%"
+                  ></div>
+                </div>
+              </div>
+
+              <div
+                class="skill-box mb-5"
+                data-aos="fade-up"
+                data-aos-delay="250"
+              >
+                <div
+                  class="skill-title mb-2 d-flex justify-content-between align-items-center"
+                >
+                  <span class="text-light">Bootstrap</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar position-relative"
+                    role="progressbar "
+                    aria-label="Basic example"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    data-val="80%"
+                  ></div>
+                </div>
+              </div>
+
+              <div
+                class="skill-box mb-5"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div
+                  class="skill-title mb-2 d-flex justify-content-between align-items-center"
+                >
+                  <span class="text-light">Javascript</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar position-relative"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    data-val="80%"
+                  ></div>
+                </div>
+              </div>
+
+              <div
+                class="skill-box mb-5"
+                data-aos="fade-up"
+                data-aos-delay="550"
+              >
+                <div
+                  class="skill-title mb-2 d-flex justify-content-between align-items-center"
+                >
+                  <span class="text-light">TypeScript</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar position-relative"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style="width: 70%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    data-val="70%"
+                  ></div>
+                </div>
+              </div>
+
+              <div
+                class="skill-box mb-5"
+                data-aos="fade-up"
+                data-aos-delay="650"
+              >
+                <div
+                  class="skill-title mb-2 d-flex justify-content-between align-items-center"
+                >
+                  <span class="text-light">Github</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar position-relative"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style="width: 85%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    data-val="85%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end About-me section -->
+
+    <!-- start servcies section -->
+    <div class="services pt-4 pb-4" id="services">
+      <div class="container">
+        <h2
+          class="text-light m-4 mb-5 mt-5 pb-3 d-inline-block border-gradient"
+          data-aos="fade-down"
+        >
+          Services
+        </h2>
+        <div class="row p-4">
+          <div
+            class="col-lg-4 col-md-6 effect-style mb-4"
+            data-aos="fade-right"
+            data-aos-delay=""
+          >
+            <div
+              class="box d-flex justify-content-center align-items-center gap-3 flex-column text-center card-effect p-3 ps-5 pe-5 rounded-3 mb-4 h-100"
+            >
+              <div
+                class="img d-flex justify-content-center align-items-center position-relative rounded-circle"
+              >
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h3 class="text-light">Web Design</h3>
+              <p class="text-white-50 lh-lg">
+                Kobita tumi sopno charini hoye ersest labo met, consectetur
+                adipi ctetur adipisicing eod tempor
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 effect-style mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="140"
+          >
+            <div
+              class="box d-flex justify-content-center align-items-center gap-3 flex-column text-center card-effect p-3 ps-5 pe-5 rounded-3 mb-4 h-100"
+            >
+              <div
+                class="img d-flex justify-content-center align-items-center position-relative rounded-circle"
+              >
+                <i class="fa-solid fa-display"></i>
+              </div>
+              <h3 class="text-light">Fully Responsive</h3>
+              <p class="text-white-50 lh-lg">
+                Kobita tumi sopno charini hoye ersest labo met, consectetur
+                adipi ctetur adipisicing eod tempor
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 effect-style mb-4"
+            data-aos="fade-left"
+            data-aos-delay="280"
+          >
+            <div
+              class="box d-flex justify-content-center align-items-center gap-3 flex-column text-center card-effect p-3 ps-5 pe-5 rounded-3 mb-4 h-100"
+            >
+              <div
+                class="img d-flex justify-content-center align-items-center position-relative rounded-circle"
+              >
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="text-light">Web Development</h3>
+              <p class="text-white-50 lh-lg">
+                Kobita tumi sopno charini hoye ersest labo met, consectetur
+                adipi ctetur adipisicing eod tempor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end servcies section -->
+    <!-- start portfolio section -->
+    <div class="portfolio pt-4 pb-4 position-relative" id="portfolio">
+      <div class="container">
+        <h2
+          class="text-light m-4 mb-5 mt-5 pb-3 d-inline-block border-gradient"
+          data-aos="fade-right"
+        >
+          Portfolio
+        </h2>
+
+        <div class="row p-4">
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay=""
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-1.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="150"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-2.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="300"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-3.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="450"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-4.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="550"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-5.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="650"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-6.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="750"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-7.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="850"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-8.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="950"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-9.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="1050"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-10.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="1200"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-11.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="1350"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-12.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4 position-relative effect-style"
+            data-aos="flip-right"
+            data-aos-delay="1450"
+          >
+            <div class="box rounded-3 p-2 card-effect h-100">
+              <div class="img rounded-3 overflow-hidden position-relative">
+                <img
+                  src="images/portfolio-13.webp"
+                  loading="lazy"
+                  class="rounded-3"
+                  alt=""
+                />
+                <div
+                  class="hover-background position-absolute w-100 h-100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper .portfolio-slider mySwiper position-fixed start-0">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/quran-player/"
+                        target="_blank"
+                        >Quran Player</a
+                      >
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-1.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/ecommerce-web/"
+                        target="_blank"
+                        >ecommerce-web</a
+                      >
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-2.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/Template-4/"
+                        target="_blank"
+                        >Dashboard</a
+                      >
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Bootstrap
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-3.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/hangman-game/"
+                        target="_blank"
+                        >Hangman Game</a
+                      >
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-4.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/Course-Template/"
+                        target="_blank"
+                        >Course Webiste
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-5.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/CRUDS-System/"
+                        target="_blank"
+                        >CRUDS System
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-6.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/Password-Generator/"
+                        target="_blank"
+                        >Password Generator
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-7.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/speed-test-typing/"
+                        target="_blank"
+                        >Speed Test Tping
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-8.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/music-player/"
+                        target="_blank"
+                        >Music Player
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-9.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/EgybestWebsite/"
+                        target="_blank"
+                        >Movie Website
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-10.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/memory-game/"
+                        target="_blank"
+                        >Memory Game
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-11.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/Notes/"
+                        target="_blank"
+                        >Note App
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-12.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div
+                  class="details-container gap-3 rounded-3 d-flex flex-column p-4"
+                >
+                  <div
+                    class="content d-flex justify-content-between align-items-center"
+                  >
+                    <div class="preview text-light">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      Preview :
+                      <a
+                        href="https://salahlala.github.io/Calculator-Project/"
+                        target="_blank"
+                        >Calculator
+                      </a>
+                    </div>
+                    <div class="language text-light">
+                      <i class="fa-solid fa-code"></i> Languages:
+                      HTML,CSS,Javascript
+                    </div>
+                  </div>
+                  <img
+                    src="images/portfolio-13.webp"
+                    loading="lazy"
+                    class="rounded-3"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end portfolio section -->
+    <!-- start contact -->
+    <div class="contact pt-4 pb-4" id="contact">
+      <div class="container">
+        <h2
+          class="text-light m-4 mb-5 mt-5 pb-3 d-inline-block border-gradient"
+          data-aos="fade-down"
+        >
+          Contact
+        </h2>
+
+        <div class="p-4">
+          <form>
+            <div
+              class="contact-input position-relative mb-3"
+              data-aos="fade-up"
+              data-aos-delay=""
+            >
+              <input
+                id="name"
+                type="text"
+                class="rounded-2 pt-3 pb-3 p-4 w-100 main-input text-light"
+                required
+              />
+              <label for="name" class="position-absolute">Full Name</label>
+            </div>
+
+            <div
+              class="contact-input position-relative mb-3"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <input
+                id="email"
+                type="email"
+                class="rounded-2 pt-3 pb-3 p-4 w-100 main-input text-light"
+                required
+              />
+              <label for="email" class="position-absolute">Email</label>
+            </div>
+            <div
+              class="contact-input position-relative mb-3"
+              data-aos="fade-up"
+              data-aos-delay="350"
+            >
+              <textarea
+                id="message"
+                class="rounded-2 pt-3 pb-3 p-4 w-100 main-input text-light"
+                required
+              ></textarea>
+              <label for="message" class="position-absolute text-message"
+                >Message</label
+              >
+            </div>
+
+            <button
+              class="btn contact-btn text-light pt-2 pb-2 p-4"
+              data-aos="zoom-in"
+              data-aos-delay="550"
+              onclick="sendMail()"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer text-center border-top p-3 mt-5 border-secondary">
+      <p class="text-center text-light fw-semibold m-0">
+        Made With <i class="fa fa-heart"></i> By Salah Lala © 2023
+      </p>
+    </div>
+    <!-- end footer -->
+
+    <!-- scroller animation -->
+    <div class="scroller">
+      <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <!-- scroller animation -->
+
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("YOUR_PUBLIC_KEY");
+      })();
+    </script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
